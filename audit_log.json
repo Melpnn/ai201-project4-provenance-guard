@@ -100,6 +100,107 @@
     "confidence": 0.6404863419412555,
     "llm_score": 0.8,
     "stylometry_score": 0.2682878064708518,
+    "status": "under_review",
+    "appeal_reasoning": "I wrote this myself from personal experience. I am a non-native English speaker and my writing style may appear more formal than typical."
+  },
+  {
+    "content_id": "198e36e1-26da-4bf0-b2b6-bfd8528aab04",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:47.291599+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "9b67ff5c-3ec5-48bf-bbdb-d89702c413e5",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:47.525895+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "646fcc01-29ef-4b5b-ae37-ae96dc744e47",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:47.754970+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "448ca138-1ba0-4f01-909e-858079f34928",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:47.991555+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "ebc39e33-bade-4a87-b73f-c7ee4386bf37",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:48.248013+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "afea5167-f400-449b-b5ed-25921db3985a",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:48.487224+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "43537e6a-c8e9-4692-8bde-ed8bb54b316a",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:48.706380+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "dbd90ac6-a721-4b4b-bf65-3a32a981d58c",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:49.035086+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "dc36a6fb-f36f-4416-ac50-91a0cc1a3e1a",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:49.273909+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "7bd2e23f-2d08-41b1-9e4a-fd41f896577a",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T02:34:49.507108+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
     "status": "classified"
   }
 ]

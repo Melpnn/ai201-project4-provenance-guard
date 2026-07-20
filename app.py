@@ -11,6 +11,17 @@ from groq import Groq
 load_dotenv()
 
 app = Flask(__name__)
+
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+
+limiter = Limiter(
+    get_remote_address,
+    app=app,
+    default_limits=[],
+    storage_uri="memory://",
+)
+
 groq_client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 LOG_FILE = "audit_log.json"
@@ -31,6 +42,19 @@ def append_to_log(entry):
     with open(LOG_FILE, "w") as f:
         json.dump(entries, f, indent=2)
 
+def update_log_entry(content_id, updates):
+    """
+    Finds the log entry matching content_id and updates it with the given
+    fields (a dict). Returns True if found and updated, False if not found.
+    """
+    entries = get_log()
+    for entry in entries:
+        if entry["content_id"] == content_id:
+            entry.update(updates)
+            with open(LOG_FILE, "w") as f:
+                json.dump(entries, f, indent=2)
+            return True
+    return False
 
 def signal_1_llm_judge(text):
     """
@@ -132,9 +156,10 @@ def get_label(confidence):
         return f"This content's origin is uncertain - our signals produced mixed results. (Confidence: {confidence:.2f})"
     else:
         return f"This content is likely human-written. (Confidence: {confidence:.2f})"
-    
-@app.route("/submit", methods=["POST"])
 
+
+@app.route("/submit", methods=["POST"])
+@limiter.limit("10 per minute;100 per day")
 def submit():
     data = request.get_json()
     text = data.get("text")
@@ -178,6 +203,28 @@ def submit():
         "signal2_score": signal2_score
     })
 
+@app.route("/appeal", methods=["POST"])
+def appeal():
+    data = request.get_json()
+    content_id = data.get("content_id")
+    creator_reasoning = data.get("creator_reasoning")
+
+    if not content_id or not creator_reasoning:
+        return jsonify({"error": "content_id and creator_reasoning are required"}), 400
+
+    found = update_log_entry(content_id, {
+        "status": "under_review",
+        "appeal_reasoning": creator_reasoning
+    })
+
+    if not found:
+        return jsonify({"error": "content_id not found"}), 404
+
+    return jsonify({
+        "content_id": content_id,
+        "status": "under_review",
+        "message": "Your appeal has been received and is under review."
+    })
 
 @app.route("/log", methods=["GET"])
 def log():
