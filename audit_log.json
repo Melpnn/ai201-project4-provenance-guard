@@ -61,5 +61,45 @@
     "confidence": 0.0,
     "llm_score": 0.0,
     "status": "classified"
+  },
+  {
+    "content_id": "0156891c-1069-49bd-878c-386b4e856cf2",
+    "creator_id": "test-user-ai",
+    "timestamp": "2026-07-20T01:49:10.400925+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.6813082304916385,
+    "llm_score": 0.9,
+    "stylometry_score": 0.17102743497212836,
+    "status": "classified"
+  },
+  {
+    "content_id": "80f21741-fe4a-4b21-b51c-6bfe73abca34",
+    "creator_id": "test-user-human",
+    "timestamp": "2026-07-20T01:49:23.241677+00:00",
+    "attribution": "likely_human",
+    "confidence": 0.01285714285714286,
+    "llm_score": 0.0,
+    "stylometry_score": 0.04285714285714287,
+    "status": "classified"
+  },
+  {
+    "content_id": "bacb6d1b-3975-4006-9c69-fadb3ca82ba6",
+    "creator_id": "test-user-formal",
+    "timestamp": "2026-07-20T01:49:26.572495+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.7455638013438181,
+    "llm_score": 0.9,
+    "stylometry_score": 0.38521267114606006,
+    "status": "classified"
+  },
+  {
+    "content_id": "48deecb7-4cc5-4ad9-a5fb-8db26fb5a7d7",
+    "creator_id": "test-user-formal",
+    "timestamp": "2026-07-20T01:50:25.255725+00:00",
+    "attribution": "uncertain",
+    "confidence": 0.6404863419412555,
+    "llm_score": 0.8,
+    "stylometry_score": 0.2682878064708518,
+    "status": "classified"
   }
 ]

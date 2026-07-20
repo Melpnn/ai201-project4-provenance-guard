@@ -4,7 +4,7 @@ Signal 1 — LLM Judge. Sends the submitted text to an LLM with a prompt asking 
 
 Signal 2 — Stylometric Heuristics. Computes sentence length variance and how many unique words were used out of total words. These are normalized and averaged into a single float between 0 and 1, where higher = more "AI-like".
 
-Combining them: combined_score = (0.6 * signal1_score) + (0.4 * signal2_score). Signal 1 is weighted higher because it reads the whole text holistically, while Signal 2 is a narrower statistical check used to support or challenge Signal 1's read.
+Combining them: combined_score = (0.7 * signal1_score) + (0.3 * signal2_score). Signal 1 is weighted higher because it reads the whole text holistically, while Signal 2 is a narrower statistical check used to support or challenge Signal 1's read.
 
 ## Uncertainty Representation
 A confidence score is the combined_score from above, always between 0 and 1.
