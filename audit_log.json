@@ -202,5 +202,317 @@
     "llm_score": 0.98,
     "stylometry_score": 0.5,
     "status": "classified"
+  },
+  {
+    "content_id": "300232d0-4f10-4e2a-a12e-49aa74f12413",
+    "creator_id": "demo-user-1",
+    "timestamp": "2026-07-20T03:51:32.430781+00:00",
+    "attribution": "likely_human",
+    "confidence": 0.0,
+    "llm_score": 0.0,
+    "stylometry_score": 0.0,
+    "status": "classified"
+  },
+  {
+    "content_id": "28322ac5-fb6f-4de9-906f-b488bdd5b62f",
+    "creator_id": "demo-user-2",
+    "timestamp": "2026-07-20T03:51:49.592514+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.6661674785275223,
+    "llm_score": 0.9,
+    "stylometry_score": 0.12055826175840784,
+    "status": "classified"
+  },
+  {
+    "content_id": "ad5ef4e8-62bd-49ea-8406-4f88c581eb64",
+    "creator_id": "demo-user-formal",
+    "timestamp": "2026-07-20T03:52:23.142537+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.752492785054963,
+    "llm_score": 0.9,
+    "stylometry_score": 0.4083092835165433,
+    "status": "classified"
+  },
+  {
+    "content_id": "0013e35d-45e6-4d34-84e8-8f5a8fc5170e",
+    "creator_id": "demo-user-formal",
+    "timestamp": "2026-07-20T03:53:48.818905+00:00",
+    "attribution": "uncertain",
+    "confidence": 0.6404863419412555,
+    "llm_score": 0.8,
+    "stylometry_score": 0.2682878064708518,
+    "status": "under_review",
+    "appeal_reasoning": "I wrote this myself. I am a non-native English speaker and my writing style is often more formal."
+  },
+  {
+    "content_id": "d1f12dc1-c093-4c71-8b6c-0bd4735e8c40",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:17.522166+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "bc238c23-eb34-445e-8902-dd4a0509daa2",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:17.785468+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "08bead4f-1e07-4eb8-b2dd-2e6402da3278",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:18.160725+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "dc9a2e31-50bb-4dc9-8f44-5b67b9924ccb",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:18.407856+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "edd50bb4-cd4d-417d-9855-cf3fa85134a8",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:18.645759+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "c256c95b-acc3-44fd-af5e-e983ae17b4ec",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:18.892509+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "50327dac-19f2-4241-98c8-081674798f04",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:19.137963+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "1bc16935-d4a9-4312-98e4-43729f874011",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:19.362488+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "a3eaeb55-d9d5-4c14-b480-0fbd52129d83",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:19.627479+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "2196df18-2db4-43e7-a95e-4c3d0cf4974e",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T03:56:19.941144+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "20fb95fd-39fa-45f7-8b5f-72a7afad5c8b",
+    "creator_id": "demo-user-1",
+    "timestamp": "2026-07-20T04:02:42.485041+00:00",
+    "attribution": "likely_human",
+    "confidence": 0.0,
+    "llm_score": 0.0,
+    "stylometry_score": 0.0,
+    "status": "classified"
+  },
+  {
+    "content_id": "5a22caaf-781e-4797-8de4-1eb6cbc6e3f4",
+    "creator_id": "demo-user-1",
+    "timestamp": "2026-07-20T04:04:46.450199+00:00",
+    "attribution": "likely_human",
+    "confidence": 0.0,
+    "llm_score": 0.0,
+    "stylometry_score": 0.0,
+    "status": "classified"
+  },
+  {
+    "content_id": "06ada701-4543-43b6-9760-c92909e37d6c",
+    "creator_id": "demo-user-2",
+    "timestamp": "2026-07-20T04:05:07.755140+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.6661674785275223,
+    "llm_score": 0.9,
+    "stylometry_score": 0.12055826175840784,
+    "status": "classified"
+  },
+  {
+    "content_id": "06393199-0b28-4a4e-bf95-dc252d14ce6e",
+    "creator_id": "demo-user-formal",
+    "timestamp": "2026-07-20T04:05:30.497725+00:00",
+    "attribution": "uncertain",
+    "confidence": 0.6404863419412555,
+    "llm_score": 0.8,
+    "stylometry_score": 0.2682878064708518,
+    "status": "classified"
+  },
+  {
+    "content_id": "f4b2073d-ee66-4187-81ff-7c2b85ea5704",
+    "creator_id": "demo-user-1",
+    "timestamp": "2026-07-20T04:10:06.573413+00:00",
+    "attribution": "likely_human",
+    "confidence": 0.0,
+    "llm_score": 0.0,
+    "stylometry_score": 0.0,
+    "status": "classified"
+  },
+  {
+    "content_id": "6e526ee6-18db-4115-be1b-e331d7ecb7ff",
+    "creator_id": "demo-user-2",
+    "timestamp": "2026-07-20T04:10:24.133414+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.6661674785275223,
+    "llm_score": 0.9,
+    "stylometry_score": 0.12055826175840784,
+    "status": "classified"
+  },
+  {
+    "content_id": "49d7a483-af68-4acf-a4ac-1cb7f07fa7ac",
+    "creator_id": "demo-user-formal",
+    "timestamp": "2026-07-20T04:10:51.189449+00:00",
+    "attribution": "uncertain",
+    "confidence": 0.6404863419412555,
+    "llm_score": 0.8,
+    "stylometry_score": 0.2682878064708518,
+    "status": "under_review",
+    "appeal_reasoning": "I wrote this myself. I am a non-native English speaker and my writing style is often more formal."
+  },
+  {
+    "content_id": "2effc82b-76ff-45f8-b294-30323a7656f6",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:48.976306+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "2f36a75d-eb92-4fcf-a7e2-339b7a805a8b",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:49.207335+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "81177c90-f2cb-4aa9-9e00-4b91d891d21a",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:49.439490+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "a0b7c316-3981-446a-b954-1dfc7096f524",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:49.666608+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "d6f2b6b1-15d9-4118-8f3c-3a524736f11b",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:50.451415+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "36fe0977-457c-421f-90b6-51f0e14fa5ea",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:50.905660+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "5d3e728d-1691-4191-ac57-1923d93d90b5",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:51.179002+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "44dad9f4-0e92-406f-9f35-eee68dadbbb7",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:51.441393+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "e0c55303-36d1-4d9d-b8c3-e2e3af6e7a8c",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:51.709648+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
+  },
+  {
+    "content_id": "9068fea1-2d3e-4fca-b332-b6920786872f",
+    "creator_id": "ratelimit-test",
+    "timestamp": "2026-07-20T04:12:51.988545+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.836,
+    "llm_score": 0.98,
+    "stylometry_score": 0.5,
+    "status": "classified"
   }
 ]
